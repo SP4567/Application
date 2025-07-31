@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3001;
 
 import path from 'path';
-const dbPath = path.resolve('E-commerce_App', 'src', 'ecommerce.db');
+const dbPath = path.resolve('E-commerce_App', 'src', 'C:\\Users\Suyash Pandey\Desktop\Application\E-commerce_App\src\ecommerce.db');
 const db = new sqlite3.Database(dbPath, (err) => {
 // Connect to SQLite database
 // const db = new sqlite3.Database('ecommerce.db', (err) => {
